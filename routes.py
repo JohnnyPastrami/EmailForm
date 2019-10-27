@@ -3,7 +3,7 @@ from forms import ContactForm
 
 app = Flask(__name__)
 
-PYTHONDONTWRITEBYTECODE=0
+
 
 app.secret_key = 'development key'
 
